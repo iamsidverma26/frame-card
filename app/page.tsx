@@ -6,7 +6,7 @@ export default function Home() {
       <div className="relative w-[595px] h-[845px] scale-[0.95] md:scale-100">
         <Image
           src="/top-corner.svg"
-          alt="Outer Border"
+          alt="OuterBorder"
           fill
           className="absolute object-cover z-0"
         />
@@ -23,10 +23,9 @@ export default function Home() {
         <div className="absolute top-[44px] left-[48px] z-20">
           <Image
             src="/border-frame.svg"
-            alt="Frame Overlay"
+            alt="Frame"
             width={505}
             height={705}
-            className=""
           />
         </div>
       </div>
